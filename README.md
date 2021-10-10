@@ -1,8 +1,6 @@
 # OnJava8-zh
 
-OnJava8 中文翻译
-
-在线阅读：[http://gdut_yy.gitee.io/doc-onjava8/](http://gdut_yy.gitee.io/doc-onjava8/)
+OnJava8 中文版、英文原版、最新中文版本
 
 <img src="./docs/cover.png" width=40%>
 
@@ -76,12 +74,15 @@ yarn -v
 yarn global add vuepress
 
 # 本地开发
-git clone https://github.com/gdut-yy/OnJava8-zh.git
+git clone git@github.com:DengSchoo/OnJava8-zh.git
 cd OnJava8-zh
 yarn docs:dev
 
 # 本地阅读
 http://localhost:8080/doc-onjava8/
+
+# 如果没有yarn
+npm install --global yarn
 ```
 
 ## License
